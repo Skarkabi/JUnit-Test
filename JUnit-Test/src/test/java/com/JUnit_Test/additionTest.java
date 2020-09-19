@@ -20,7 +20,7 @@ public class additionTest extends TestCase {
 		//This will initially be incorrect when you run it
 		//After running it, check the failure trace to see the expected and gotten results
 		//Change the first parameter to pass the correct answer
-		assertEquals(0,addClass.addOne(x));
+		assertEquals(x+1,addClass.addOne(x));
 		
 	
 	}
