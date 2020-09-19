@@ -16,9 +16,8 @@ import org.junit.runners.Suite;
 	//firstClassTest.class,
 	//secondClassTest.class,
 	//nClassTest.class
-	
-	   
-
+	additionalClassTest.class,
+	additionTest.class
 	})
 
 
