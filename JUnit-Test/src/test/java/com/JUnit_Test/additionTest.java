@@ -39,8 +39,11 @@ public class additionTest extends TestCase {
 		additionClass checkClass = new additionClass();
 		
 		//Create an assertSame test to check that the two items in the addClassList are indeed the objects that were added
+		assertEquals(addClassList.get(0), addClass);
+		assertEquals(addClassList.get(1), addClass2);
 		
 		//Create an assertEquals test to check that the length of the addClassList is 2
+		assertEquals(2, addClassList.size());
 		
 	}
 	
