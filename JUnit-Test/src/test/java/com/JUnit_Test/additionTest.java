@@ -26,7 +26,7 @@ public class additionTest extends TestCase {
 		double answer = 10.0;
 		additionClass addClass = new additionClass();
 		
-		assertEquals(x+y+, addClass.addTwoNumbers(x, y));
+		assertEquals(x+y, addClass.addTwoNumbers(x, y));
 			
 	}
 	@Test
