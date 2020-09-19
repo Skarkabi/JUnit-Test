@@ -14,12 +14,6 @@ public class additionTest extends TestCase {
 		int answer = 2;
 		additionClass addClass = new additionClass();
 		
-		//Create an assertEquals test to check that the addOne function returns the correct answer
-		//Call the addOne method from the additionClass in the assertEquals parameter
-		//Example:
-		//This will initially be incorrect when you run it
-		//After running it, check the failure trace to see the expected and gotten results
-		//Change the first parameter to pass the correct answer
 		assertEquals(x+1,addClass.addOne(x));
 		
 	
@@ -32,8 +26,7 @@ public class additionTest extends TestCase {
 		double answer = 10.0;
 		additionClass addClass = new additionClass();
 		
-		//Create an assertEquals test to check that the addTwoNumbers function returns the correct answer
-		//Call the addTwoNumbers method from the additionClass in the assertEquals parameter
+		assertEquals(x+y+, addClass.addTwoNumbers(x, y));
 			
 	}
 	@Test
